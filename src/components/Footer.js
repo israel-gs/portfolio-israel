@@ -11,7 +11,7 @@ function Footer() {
         </Link>
         <div className="columns is-centered">
           <div className="column is-one-third">
-            <h1 className="title has-text-light is-size-4-touch">Nunca pares de aprender.</h1>
+            <h1 className="title has-text-light is-size-4-touch">Aprende constantemente en tu día a día.</h1>
           </div>
         </div>
         <div className="columns is-centered">

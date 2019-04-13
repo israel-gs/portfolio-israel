@@ -46,7 +46,7 @@ class Contact extends Component {
                 <div className="column is-one-third">
                   <div className="field">
                     <div className="control">
-                      <button className="button has-text-white has-background-grey-darker is-fullwidth" type="submit">Enviar</button>
+                      <button className="button is-medium has-text-white has-background-grey-darker is-fullwidth" type="submit">Enviar</button>
                     </div>
                   </div>
                 </div>

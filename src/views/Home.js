@@ -25,9 +25,9 @@ function Home() {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-three-fifths">
-              <h1 className="title has-text-white is-spaced is-size-3-desktop is-size-4-mobile">Hola, soy Israel Gutierrez, bienvenido.</h1>
+              <h1 className="title has-text-white is-spaced is-size-3-desktop is-size-4-mobile">Hola, soy Israel Gutierrez. Encantado de conocerte.</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, amet modi dignissimos laudantium, eum repellendus voluptatem dolorem, fuga minus illum totam ducimus ab blanditiis doloremque atque! Quae animi nulla aliquam.
+              Llevo aproximadamente 2 años en el desarrollo web y 5 años interesado en la informática, principalmente he trabajado con Java. Soy autodidacta, actualmente estudiante activo de Pratzi.com. Otras de mis pasiones son la fotografía y el dibujo.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ function Home() {
                   <ul className="skills-tools">
                     <li>Bulma</li>
                     <li>Bootstrap</li>
-                    <li>Materializa</li>
+                    <li>Materialize</li>
                     <li>Buefy</li>
                   </ul>
                 </div>
@@ -56,13 +56,13 @@ function Home() {
                   <img src={backendLogo} className="skills-column-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Back-end</h1>
                   <p className="list-title has-text-primary has-text-weight-normal">Lenguajes</p>
-                  <p>HTML, Pug, Slim, CSS, Sass, Less</p>
+                  <p>Java, Node JS</p>
                   <p className="list-title has-text-primary has-text-weight-normal">Herramientas</p>
                   <ul className="skills-tools">
-                    <li>Bulma</li>
-                    <li>Bootstrap</li>
-                    <li>Materializa</li>
-                    <li>Buefy</li>
+                    <li>VSCode</li>
+                    <li>NetBeans</li>
+                    <li>Eclipse</li>
+                    <li>STS</li>
                   </ul>
                 </div>
               </div>
