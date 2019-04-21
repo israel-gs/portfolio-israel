@@ -1,0 +1,183 @@
+$primary-color: #00d1b2;
+$secondary-color : #575477;
+$secondary-color-dark : #3c3a52;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+  .navbar-menu {
+    text-align: center;
+    padding: 1rem 0 2rem;
+  }
+}
+
+.hero {
+  .hero-image {
+    margin-top: 50px;
+    height: 300px;
+  }
+}
+
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.navbar {
+  .btn-contact {
+    background: $secondary-color;
+    border: none;
+    color: white;
+    transition: all .33s ease-in-out;
+    &:hover {
+      background: $secondary-color-dark;
+      transition: all .33s ease-in-out;
+    }
+  }
+}
+
+.skills {
+
+  margin-top: -14rem;
+  
+  .box {
+
+    padding-bottom: 70px;
+    
+    .skill-image {
+      margin-top: 50px;
+      height: 70px;
+    }
+
+  }
+
+  .skills-tools {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+}
+
+.collabs {
+
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+
+  .collab {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  .collab-image {
+    height: 45px;
+    margin: auto 2rem;
+  }
+
+}
+
+.footer {
+
+  padding: 1.5rem 1.5rem 3.5rem;
+
+  .logo {
+    margin-top: 50px;
+    height: 50px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    max-width: 300px;
+    opacity: 0.7;
+  }
+
+  .btn-social {
+    background-color: transparent;
+    border-radius: 100% !important;
+    border: 2px solid rgba(255,255,255,0.3);
+    color: white;
+    margin: auto 0.8rem;
+    transition: all .33s ease-in-out;
+    
+    &:hover {
+      background-color: white;
+      color: $primary-color;
+      transition: all .33s ease-in-out;
+    }
+
+  }
+
+  p.copyright-text {
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 1088px) {
+  .navbar {
+    padding: 1.2rem 0;
+    box-shadow: none;
+    z-index: auto;
+  }
+  
+  .navbar>.container {
+    align-items: stretch;
+    display: flex;
+    min-height: 3.25rem;
+    width: 100%;
+  }
+  
+  .navbar .navbar-brand a.navbar-item img {
+    max-height: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .section.is-medium {
+    padding: 5rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .section.is-long {
+      padding-bottom: 13rem;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .section.is-long {
+      padding-bottom: 13rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-left: 1px solid #E6ECF8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3f3d56;
+}
+
+/* contact page */
+.section.contact-section-title {
+  padding-bottom: 2rem;
+}
+
+.section.contact-section-form {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.section.contact-section-form form {
+  max-width: 640px;
+  margin: 32px auto 0;
+}

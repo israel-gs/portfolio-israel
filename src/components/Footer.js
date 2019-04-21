@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer has-background-primary  has-text-centered">
       <div className="container is-narrow">
         <Link to="/">
-          <img className="footer-logo" src={logo} alt="Logo" />
+          <img className="logo" src={logo} alt="Logo" />
         </Link>
         <div className="columns is-centered">
           <div className="column is-one-third">
@@ -16,25 +16,25 @@ function Footer() {
         </div>
         <div className="columns is-centered">
           <div className="column is-one-third">
-            <a className="button is-large is-outlined" href="https://github.com/israel-gs" target="_blank">
+            <a className="button is-large is-outlined btn-social" href="https://github.com/israel-gs" target="_blank">
               <span className="icon">
                 <i className="fab fa-github"></i>
               </span>
             </a>
 
-            <a className="button is-large is-outlined" href="https://www.instagram.com/israelgs.photo/" target="_blank">
+            <a className="button is-large is-outlined btn-social" href="https://www.instagram.com/israelgs.photo/" target="_blank">
               <span className="icon">
                 <i className="fab fa-instagram"></i>
               </span>
             </a>
 
-            <a className="button is-large is-outlined" href="https://www.linkedin.com/in/israel-gs/" target="_blank">
+            <a className="button is-large is-outlined btn-social" href="https://www.linkedin.com/in/israel-gs/" target="_blank">
               <span className="icon">
                 <i className="fab fa-linkedin-in"></i>
               </span>
             </a>
 
-            <a className="button is-large is-outlined" href="mailto:israelgs83@gmail.com">
+            <a className="button is-large is-outlined btn-social" href="mailto:israelgs83@gmail.com">
               <span className="icon">
                 <i className="far fa-envelope"></i>
               </span>
@@ -43,10 +43,8 @@ function Footer() {
         </div>
 
         <div className="columns is-centered">
-          <div className="column is-one-third">
-            <a href="https://bulma.io" target="_blank">
-              <img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31" />
-            </a>
+          <div className="colum-is-one-third">
+            <p className="copyright-text">This website was handcrafted with ❤️ by me</p>
           </div>
         </div>
 

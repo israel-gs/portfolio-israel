@@ -20,10 +20,7 @@ function Navbar() {
         <div className="navbar-menu" id="navMenu">
           <div className="navbar-end">
             <div className="navbar-item">
-              <Link to="/contact" className="button is-primary ">Contáctame</Link>
-              
-
-
+              <Link to="/contact" className="button btn-contact">Contáctame</Link>
             </div>
           </div>
         </div>

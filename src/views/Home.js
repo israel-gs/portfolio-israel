@@ -21,7 +21,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="section is-medium is-primary has-text-centered is-long  ">
+      <section className="section is-medium has-text-centered is-long has-text-white has-background-primary">
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-three-fifths">
@@ -40,10 +40,10 @@ function Home() {
             <div className="content">
               <div className="columns is-centered">
                 <div className="column">
-                  <img src={frontendLogo} className="skills-column-image" alt="" />
+                  <img src={frontendLogo} className="skill-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Front-end</h1>
                   <p className="list-title has-text-primary has-text-weight-normal">Lenguajes</p>
-                  <p>HTML, Pug, CSS, Vue Js, React Js</p>
+                  <p>HTML, Pug, CSS, Sass, Vue Js, React Js</p>
                   <p className="list-title has-text-primary has-text-weight-normal">Herramientas</p>
                   <ul className="skills-tools">
                     <li>Bulma</li>
@@ -53,10 +53,10 @@ function Home() {
                   </ul>
                 </div>
                 <div className="column">
-                  <img src={backendLogo} className="skills-column-image" alt="" />
+                  <img src={backendLogo} className="skill-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Back-end</h1>
                   <p className="list-title has-text-primary has-text-weight-normal">Lenguajes</p>
-                  <p>Java, Node JS</p>
+                  <p>Java, PHP, Node JS</p>
                   <p className="list-title has-text-primary has-text-weight-normal">Herramientas</p>
                   <ul className="skills-tools">
                     <li>VSCode</li>
@@ -71,7 +71,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="section is-medium has-text-centered">
+      <section className="section collabs is-medium has-text-centered">
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-three-fifths">
@@ -79,19 +79,19 @@ function Home() {
             </div>
           </div>
           <div className="colums is-multiline is-mobile">
-            <div className="column">
+            <div className="column collab">
               <a href="http://sacooliveros.edu.pe/" target="_blannk">
                 <img className="collab-image" src="http://sacooliveros.edu.pe/images/sacooliveros/Home/logos/logo-saco-apeiron.png" alt="" />
               </a>
             </div>
 
-            <div className="column">
+            <div className="column collab">
               <a href="https://www.avansys.edu.pe/" target="_blank">
                 <img className="collab-image" src="https://www.avansys.edu.pe/sites/default/files/logix.png" alt="" />
               </a>
             </div>
 
-            <div className="column  ">
+            <div className="column collab">
               <a href="https://www.cibertec.edu.pe/" target="_blank">
                 <img className="collab-image" src="https://www.cibertec.edu.pe/images/logo-cibertec.png" alt="" />
               </a>
