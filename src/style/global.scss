@@ -51,7 +51,7 @@ body {
     
     .skill-image {
       margin-top: 50px;
-      height: 70px;
+      height: 65px;
     }
 
   }
@@ -121,40 +121,31 @@ body {
 
 }
 
-@media screen and (min-width: 1088px) {
-  .navbar {
-    padding: 1.2rem 0;
-    box-shadow: none;
-    z-index: auto;
-  }
-  
-  .navbar>.container {
-    align-items: stretch;
-    display: flex;
-    min-height: 3.25rem;
-    width: 100%;
-  }
-  
-  .navbar .navbar-brand a.navbar-item img {
-    max-height: 3.5rem;
-  }
-}
-
-@media screen and (min-width: 1088px) {
-  .section.is-medium {
-    padding: 5rem 1.5rem;
-  }
+.section.is-long {
+  padding-bottom: 13rem;
 }
 
 @media screen and (max-width: 769px){
-  .section.is-long {
-      padding-bottom: 13rem;
+  .collabs {
+    .collab-image {
+      height: 25px;
+    }
+  }
+
+  .footer {
+    .btn-social {
+      margin: auto 0.3rem;
+    }
   }
 }
 
-@media screen and (min-width: 1280px){
-  .section.is-long {
-      padding-bottom: 13rem;
+@media screen and (max-width: 425px){
+  .footer {
+    .btn-social {
+      // width: 20px;
+      font-size: 15px;
+      margin: auto 0.3rem;
+    }
   }
 }
 

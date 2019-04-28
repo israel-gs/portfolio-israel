@@ -15,7 +15,7 @@ function Footer() {
           </div>
         </div>
         <div className="columns is-centered">
-          <div className="column is-one-third">
+          <div className="column is-two-quarters is-full-mobile">
             <a className="button is-large is-outlined btn-social" href="https://github.com/israel-gs" target="_blank">
               <span className="icon">
                 <i className="fab fa-github"></i>
@@ -25,6 +25,12 @@ function Footer() {
             <a className="button is-large is-outlined btn-social" href="https://www.instagram.com/israelgs.photo/" target="_blank">
               <span className="icon">
                 <i className="fab fa-instagram"></i>
+              </span>
+            </a>
+
+            <a className="button is-large is-outlined btn-social" href="https://dribbble.com/israel-gs" target="_blank">
+              <span className="icon">
+                <i className="fab fa-dribbble"></i>
               </span>
             </a>
 
