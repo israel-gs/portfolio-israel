@@ -4,14 +4,14 @@ import logo from '../images/marca-israel-white.png'
 
 function Footer() {
   return (
-    <footer className="footer has-background-primary  has-text-centered">
+    <footer className="footer has-bg-blue has-text-centered">
       <div className="container is-narrow">
         <Link to="/">
           <img className="logo" src={logo} alt="Logo" />
         </Link>
         <div className="columns is-centered">
           <div className="column is-one-third">
-            <h1 className="title has-text-light is-size-4-touch">Aprende constantemente en tu día a día.</h1>
+            <h1 className="title has-text-light is-size-4-touch">Never stop learning because life never stops teaching</h1>
           </div>
         </div>
         <div className="columns is-centered">
@@ -50,7 +50,7 @@ function Footer() {
 
         <div className="columns is-centered">
           <div className="colum-is-one-third">
-            <p className="copyright-text">This website was handcrafted with ❤️ by me</p>
+            <p className="copyright-text has-text-white">This website was handcrafted with ❤️ by me</p>
           </div>
         </div>
 

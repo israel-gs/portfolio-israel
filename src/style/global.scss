@@ -1,13 +1,15 @@
-$primary-color: #00d1b2;
+// $primary-color: #00d1b2;
+$primary-color: #F4ABAA;
 $secondary-color : #575477;
 $secondary-color-dark : #3c3a52;
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .title {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Raleway', serif;
+  font-weight: 500;
 }
 
 .navbar {
@@ -17,6 +19,26 @@ body {
   }
 }
 
+.has-bg-blue {
+  background-color: #0a315a !important;
+}
+
+.has-bg-pink {
+  background-color: #fdd2c3 !important;
+}
+
+.text-pink {
+  color: #fdd2c3;
+}
+
+.text-blue {
+  color: #0a315a !important;
+}
+
+.text-pink-transparent {
+  color: rgba(244, 171, 170, .7);
+}
+
 .hero {
   .hero-image {
     margin-top: 50px;
@@ -24,9 +46,9 @@ body {
   }
 }
 
-.section {
-  padding: 5rem 1.5rem;
-}
+// .section {
+//   padding: 5rem 1.5rem;
+// }
 
 .navbar {
   .btn-contact {
@@ -38,6 +60,13 @@ body {
       background: $secondary-color-dark;
       transition: all .33s ease-in-out;
     }
+  }
+}
+
+.whoami {
+  padding: 4rem 1.5rem 15rem 1.5rem;
+  .history {
+    
   }
 }
 
@@ -100,21 +129,20 @@ body {
   .btn-social {
     background-color: transparent;
     border-radius: 100% !important;
-    border: 2px solid rgba(255,255,255,0.3);
+    border: 2px solid rgba(255, 255, 255, .5);
     color: white;
     margin: auto 0.8rem;
     transition: all .33s ease-in-out;
     
     &:hover {
       background-color: white;
-      color: $primary-color;
+      color: #2A3166;
       transition: all .33s ease-in-out;
     }
 
   }
 
   p.copyright-text {
-    color: white;
     font-size: 1rem;
     padding-top: 1rem;
   }
@@ -122,7 +150,7 @@ body {
 }
 
 .section.is-long {
-  padding-bottom: 13rem;
+  // padding-bottom: 13rem;
 }
 
 @media screen and (max-width: 769px){

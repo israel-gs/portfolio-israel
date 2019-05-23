@@ -7,27 +7,25 @@ import backendLogo from '../images/undraw_backend.svg'
 function Home() {
   return (
     <Fragment>
-      <section className="hero has-text-centered">
+      <section className="hero has-text-centered is-fullheight-with-navbar">
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-              Java & Javascript Developer
-              </h1>
-            <p className="subtitle">
-              Analizo y creo una <strong>solución</strong> para tu problema!
-              </p>
-            <img src={heroImage} className="hero-image" alt="Logo"/>
+              Hi, I'm Israel A Frontend Developer
+            </h1>
+            <button className="button is-medium is-rounded is-black has-bg-blue">Say Hello 👋</button>
+            {/* <img src={heroImage} className="hero-image" alt="Logo"/> */}
           </div>
         </div>
       </section>
 
-      <section className="section is-medium has-text-centered is-long has-text-white has-background-primary">
+      <section className="section has-text-centered is-long has-text-white has-bg-blue whoami">
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-three-fifths">
-              <h1 className="title has-text-white is-spaced is-size-3-desktop is-size-4-mobile">Hola, soy Israel Gutierrez. Encantado de conocerte.</h1>
-              <p>
-              Llevo aproximadamente 2 años en el desarrollo web y 5 años interesado en la informática, principalmente he trabajado con Java. Soy autodidacta, actualmente estudiante activo de Pratzi.com. Otras de mis pasiones son la fotografía y el dibujo.
+              {/* <h1 className="title has-text-white is-spaced is-size-3-desktop is-size-4-mobile">Hola, soy Israel Gutierrez. Encantado de conocerte.</h1> */}
+              <p className="history is-size-5">
+                Llevo aproximadamente 2 años en el desarrollo web y 5 años interesado en la informática, principalmente he trabajado con Java. Soy autodidacta, actualmente estudiante activo de Pratzi.com. Otras de mis pasiones son la fotografía y el dibujo.
               </p>
             </div>
           </div>
@@ -42,9 +40,9 @@ function Home() {
                 <div className="column">
                   <img src={frontendLogo} className="skill-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Front-end</h1>
-                  <p className="list-title has-text-primary has-text-weight-normal">Lenguajes</p>
+                  <p className="list-title has-text-weight-bold text-blue">Lenguajes</p>
                   <p>HTML, Pug, CSS, Sass, Vue Js, React Js</p>
-                  <p className="list-title has-text-primary has-text-weight-normal">Herramientas</p>
+                  <p className="list-title has-text-weight-bold text-blue">Herramientas</p>
                   <ul className="skills-tools">
                     <li>Bulma</li>
                     <li>Bootstrap</li>
@@ -55,9 +53,9 @@ function Home() {
                 <div className="column">
                   <img src={backendLogo} className="skill-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Back-end</h1>
-                  <p className="list-title has-text-primary has-text-weight-normal">Lenguajes</p>
+                  <p className="list-title has-text-weight-bold text-blue">Lenguajes</p>
                   <p>Java, PHP, Node JS</p>
-                  <p className="list-title has-text-primary has-text-weight-normal">Herramientas</p>
+                  <p className="list-title has-text-weight-bold text-blue">Herramientas</p>
                   <ul className="skills-tools">
                     <li>VSCode</li>
                     <li>NetBeans</li>
