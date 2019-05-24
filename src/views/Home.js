@@ -1,19 +1,22 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 import heroImage from '../images/undraw_code_review_l1q9.svg'
 import frontendLogo from '../images/undraw_frontend.svg'
 import backendLogo from '../images/undraw_backend.svg'
+import avansysLogo from '../images/avansys-logo.png'
+import teslaLogo from '../images/testa-logo.png'
 
 function Home() {
   return (
     <Fragment>
-      <section className="hero has-text-centered is-fullheight-with-navbar">
+      <section className="hero has-text-centered is-fullheight-with-navbar me">
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
               Hi, I'm Israel A Frontend Developer
             </h1>
-            <button className="button is-medium is-rounded is-black has-bg-blue">Say Hello 👋</button>
+            <Link to="/contact" className="button is-medium is-rounded is-black has-bg-blue say-hello-button">Say Hello 👋</Link>
             {/* <img src={heroImage} className="hero-image" alt="Logo"/> */}
           </div>
         </div>
@@ -40,9 +43,9 @@ function Home() {
                 <div className="column">
                   <img src={frontendLogo} className="skill-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Front-end</h1>
-                  <p className="list-title has-text-weight-bold text-blue">Lenguajes</p>
+                  <p className="list-title has-text-weight-bold text-blue">Languages</p>
                   <p>HTML, Pug, CSS, Sass, Vue Js, React Js</p>
-                  <p className="list-title has-text-weight-bold text-blue">Herramientas</p>
+                  <p className="list-title has-text-weight-bold text-blue">Tools</p>
                   <ul className="skills-tools">
                     <li>Bulma</li>
                     <li>Bootstrap</li>
@@ -53,9 +56,9 @@ function Home() {
                 <div className="column">
                   <img src={backendLogo} className="skill-image" alt="" />
                   <h1 className="title is-size-4 is-spaced">Back-end</h1>
-                  <p className="list-title has-text-weight-bold text-blue">Lenguajes</p>
+                  <p className="list-title has-text-weight-bold text-blue">Languages</p>
                   <p>Java, PHP, Node JS</p>
-                  <p className="list-title has-text-weight-bold text-blue">Herramientas</p>
+                  <p className="list-title has-text-weight-bold text-blue">Tools</p>
                   <ul className="skills-tools">
                     <li>VSCode</li>
                     <li>NetBeans</li>
@@ -73,7 +76,7 @@ function Home() {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-three-fifths">
-              <h1 className="title is-size-4 is-spaced">He colaborado con las siguientes empresas:</h1>
+              <h1 className="title is-size-3 is-spaced">I have collaborated with some companies:</h1>
             </div>
           </div>
           <div className="colums is-multiline is-mobile">
@@ -85,13 +88,19 @@ function Home() {
 
             <div className="column collab">
               <a href="https://www.avansys.edu.pe/" target="_blank">
-                <img className="collab-image" src="https://www.avansys.edu.pe/sites/default/files/logix.png" alt="" />
+                <img className="collab-image" src={avansysLogo} alt="" />
               </a>
             </div>
 
             <div className="column collab">
               <a href="https://www.cibertec.edu.pe/" target="_blank">
                 <img className="collab-image" src="https://www.cibertec.edu.pe/images/logo-cibertec.png" alt="" />
+              </a>
+            </div>
+
+            <div className="column collab">
+              <a href="http://teslatec.pe/" target="_blank">
+                <img className="collab-image" src={teslaLogo} alt="" />
               </a>
             </div>
           </div>

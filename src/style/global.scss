@@ -46,28 +46,8 @@ body {
   }
 }
 
-// .section {
-//   padding: 5rem 1.5rem;
-// }
-
-.navbar {
-  .btn-contact {
-    background: $secondary-color;
-    border: none;
-    color: white;
-    transition: all .33s ease-in-out;
-    &:hover {
-      background: $secondary-color-dark;
-      transition: all .33s ease-in-out;
-    }
-  }
-}
-
 .whoami {
   padding: 4rem 1.5rem 15rem 1.5rem;
-  .history {
-    
-  }
 }
 
 .skills {
@@ -115,8 +95,8 @@ body {
   padding: 1.5rem 1.5rem 3.5rem;
 
   .logo {
-    margin-top: 50px;
-    height: 50px;
+    margin-top: 35px;
+    height: 42px;
   }
 
   .title {
@@ -156,7 +136,7 @@ body {
 @media screen and (max-width: 769px){
   .collabs {
     .collab-image {
-      height: 25px;
+      height: 35px;
     }
   }
 
@@ -170,7 +150,6 @@ body {
 @media screen and (max-width: 425px){
   .footer {
     .btn-social {
-      // width: 20px;
       font-size: 15px;
       margin: auto 0.3rem;
     }
