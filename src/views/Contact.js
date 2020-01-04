@@ -6,11 +6,11 @@ class Contact extends Component {
     return (
       <Fragment>
 
-        <section className="section contact-section-title is-medium is-white has-text-centered is-long  ">
+        <section className="section contact-section-title is-medium has-text-centered is-long">
           <div className="container">
             <div className="columns is-centered">
               <div className="column is-three-fifths">
-                <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Gracias por tomarte el tiempo de escribirme ¿Cómo te puedo ayudar?</h1>
+                <h1 className="is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-white">Thanks for taking the time to reach out. How can I help you today?</h1>
               </div>
             </div>
           </div>
@@ -21,21 +21,21 @@ class Contact extends Component {
             <form className="form" acceptCharset="UTF-8" action="https://usebasin.com/f/8da4f82a4a96" encType="multipart/form-data" method="POST">
 
               <div className="field">
-                <label className="label">Nombre</label>
+                <label className="label has-text-white">Name</label>
                 <div className="control">
                   <input type="text" id="name" name="name" required className="input" />
                 </div>
               </div>
 
               <div className="field">
-                <label className="label">Correo</label>
+                <label className="label has-text-white">Email</label>
                 <div className="control">
                   <input type="email" id="email" name="email" required className="input" />
                 </div>
               </div>
 
               <div className="field">
-                <label className="label">Mensaje</label>
+                <label className="label has-text-white">Message</label>
                 <div className="control">
                   <textarea id="message" name="message" required rows="5" className="textarea" />
                 </div>
@@ -46,7 +46,7 @@ class Contact extends Component {
                 <div className="column is-one-third">
                   <div className="field">
                     <div className="control">
-                      <button className="button is-medium has-text-white has-background-grey-darker is-fullwidth" type="submit">Enviar</button>
+                      <button className="button is-medium has-text-white has-background-grey-darker is-fullwidth contact-button" type="submit">Send</button>
                     </div>
                   </div>
                 </div>

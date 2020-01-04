@@ -11,49 +11,9 @@ function Footer() {
         </Link>
         <div className="columns is-centered">
           <div className="column is-one-third">
-            <h1 className="title has-text-light is-size-4-touch">Never stop learning because life never stops teaching</h1>
+            <h1 className="title has-text-light is-size-4-touch">Israel Gutierrez, 2020</h1>
           </div>
         </div>
-        <div className="columns is-centered">
-          <div className="column is-two-quarters is-full-mobile">
-            <a className="button is-large is-outlined btn-social" href="https://github.com/israel-gs" target="_blank">
-              <span className="icon">
-                <i className="fab fa-github"></i>
-              </span>
-            </a>
-
-            <a className="button is-large is-outlined btn-social" href="https://www.instagram.com/israelgs.photo/" target="_blank">
-              <span className="icon">
-                <i className="fab fa-instagram"></i>
-              </span>
-            </a>
-
-            <a className="button is-large is-outlined btn-social" href="https://dribbble.com/israel-gs" target="_blank">
-              <span className="icon">
-                <i className="fab fa-dribbble"></i>
-              </span>
-            </a>
-
-            <a className="button is-large is-outlined btn-social" href="https://www.linkedin.com/in/israel-gs/" target="_blank">
-              <span className="icon">
-                <i className="fab fa-linkedin-in"></i>
-              </span>
-            </a>
-
-            <a className="button is-large is-outlined btn-social" href="mailto:israelgs83@gmail.com">
-              <span className="icon">
-                <i className="far fa-envelope"></i>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div className="columns is-centered">
-          <div className="colum-is-one-third">
-            <p className="copyright-text has-text-white">This website was handcrafted with ❤️ by me</p>
-          </div>
-        </div>
-
       </div>
     </footer>
   )

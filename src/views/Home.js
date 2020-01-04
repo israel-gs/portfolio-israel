@@ -6,102 +6,114 @@ import frontendLogo from '../images/undraw_frontend.svg'
 import backendLogo from '../images/undraw_backend.svg'
 import avansysLogo from '../images/avansys-logo.png'
 import teslaLogo from '../images/testa-logo.png'
+import cibertecLogo from '../images/cibertec-logo.png'
+import sacoLogo from '../images/saco-logo.png'
 
 function Home() {
   return (
     <Fragment>
-      <section className="hero has-text-centered is-fullheight-with-navbar me">
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-              Hi, I'm Israel A Frontend Developer
-            </h1>
-            <Link to="/contact" className="button is-medium is-rounded is-black has-bg-blue say-hello-button">Say Hello 👋</Link>
-            {/* <img src={heroImage} className="hero-image" alt="Logo"/> */}
+      <section className="hero is-fullheight-with-navbar me">
+        <div className="container">
+          <div className="left-side">
+            <div>
+              <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
+                Hi, <br></br>
+                I'm Israel <br></br>
+                A Frontend Developer
+              </h1>
+              <Link to="/contact" className="button is-medium is-black has-bg-primary contact-button">Contact me</Link>
+            </div>
+          </div>
+          <div className="right-side">
+
           </div>
         </div>
       </section>
 
-      <section className="section has-text-centered is-long has-text-white has-bg-blue whoami">
+      <section className="section is-long has-text-white whoami" id="about">
         <div className="container">
-          <div className="columns is-centered">
-            <div className="column is-three-fifths">
-              {/* <h1 className="title has-text-white is-spaced is-size-3-desktop is-size-4-mobile">Hola, soy Israel Gutierrez. Encantado de conocerte.</h1> */}
+          <div className="left-side">
+              <h2 className="history is-size-3">
+                About me
+              </h2>
+          </div>
+          <div className="right-side">
               <p className="history is-size-5">
                 Llevo aproximadamente 2 años en el desarrollo web y 5 años interesado en la informática, principalmente he trabajado con Java. Soy autodidacta, actualmente estudiante activo de Pratzi.com. Otras de mis pasiones son la fotografía y el dibujo.
               </p>
-            </div>
           </div>
         </div>
       </section>
 
-      <section className="section skills has-text-centered">
-        <div className="container is-narrow">
-          <div className="box has-background-white-bis">
-            <div className="content">
-              <div className="columns is-centered">
-                <div className="column">
-                  <img src={frontendLogo} className="skill-image" alt="" />
-                  <h1 className="title is-size-4 is-spaced">Front-end</h1>
-                  <p className="list-title has-text-weight-bold text-blue">Languages</p>
-                  <p>HTML, Pug, CSS, Sass, Vue Js, React Js</p>
-                  <p className="list-title has-text-weight-bold text-blue">Tools</p>
-                  <ul className="skills-tools">
-                    <li>Bulma</li>
-                    <li>Bootstrap</li>
-                    <li>Materialize</li>
-                    <li>Buefy</li>
-                  </ul>
-                </div>
-                <div className="column">
-                  <img src={backendLogo} className="skill-image" alt="" />
-                  <h1 className="title is-size-4 is-spaced">Back-end</h1>
-                  <p className="list-title has-text-weight-bold text-blue">Languages</p>
-                  <p>Java, PHP, Node JS</p>
-                  <p className="list-title has-text-weight-bold text-blue">Tools</p>
-                  <ul className="skills-tools">
-                    <li>VSCode</li>
-                    <li>NetBeans</li>
-                    <li>Eclipse</li>
-                    <li>STS</li>
-                  </ul>
-                </div>
+      <section className="section is-long has-text-white is-fullheight skills">
+        <div className="container">
+          <div className="left-side">
+              <h2 className="history is-size-3">
+                Front-End
+              </h2>
+              <div className="list-container">
+                <h3 className="history is-size-4">Languages</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>Css, Less, Sass</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div className="list-container">
+                <h3 className="history is-size-4">Frameworks</h3>
+                <ul>
+                  <li>React JS</li>
+                  <li>Vue JS</li>
+                  <li>Sencga Ext</li>
+                  <li>Ant Design</li>
+                  <li>Bulma</li>
+                </ul>
+              </div>
+          </div>
+          <div className="right-side">
+              <h2 className="history is-size-3">
+                Back-End
+              </h2>
+              <div className="list-container">
+                <h3 className="history is-size-4">Languages</h3>
+                <ul>
+                  <li>Java</li>
+                  <li>PHP</li>
+                  <li>Node JS</li>
+                </ul>
+              </div>
+              <div className="list-container">
+                <h3 className="history is-size-4">Frameworks</h3>
+                <ul>
+                  <li>Express</li>
+                  <li>Spring</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section is-long has-text-centered has-text-white is-fullheight collabs">
+        <div className="container">
+          <div className="content">
+            <h2 className="history is-size-4">
+              I have collaborated with some companies:
+            </h2>
+            <div className="images-container">
+              <div className="image-container">
+                <img src={teslaLogo}></img>
+              </div>
+              <div className="image-container">
+                <img src={cibertecLogo}></img>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section collabs is-medium has-text-centered">
-        <div className="container">
-          <div className="columns is-centered">
-            <div className="column is-three-fifths">
-              <h1 className="title is-size-3 is-spaced">I have collaborated with some companies:</h1>
-            </div>
-          </div>
-          <div className="colums is-multiline is-mobile">
-            <div className="column collab">
-              <a href="http://sacooliveros.edu.pe/" target="_blannk">
-                <img className="collab-image" src="http://sacooliveros.edu.pe/images/sacooliveros/Home/logos/logo-saco-apeiron.png" alt="" />
-              </a>
-            </div>
-
-            <div className="column collab">
-              <a href="https://www.avansys.edu.pe/" target="_blank">
-                <img className="collab-image" src={avansysLogo} alt="" />
-              </a>
-            </div>
-
-            <div className="column collab">
-              <a href="https://www.cibertec.edu.pe/" target="_blank">
-                <img className="collab-image" src="https://www.cibertec.edu.pe/images/logo-cibertec.png" alt="" />
-              </a>
-            </div>
-
-            <div className="column collab">
-              <a href="http://teslatec.pe/" target="_blank">
-                <img className="collab-image" src={teslaLogo} alt="" />
-              </a>
+            <div className="images-container">
+              <div className="image-container">
+                <img src={avansysLogo}></img>
+              </div>
+              <div className="image-container">
+                <img src={sacoLogo}></img>
+              </div>
             </div>
           </div>
         </div>
